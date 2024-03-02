@@ -8,3 +8,4 @@ Included code to receive notifications so can be developed to get feedback by se
 
 Inspired by this library https://github.com/alexpilotti/python-miramode but communication structure of my Mira Mode was different.
 
+If your Mira Mode is not found in the scan, you may need to figure out your Mira Mode service UUID and characteristic UUIDs (if they are different to the ones in the code). nRF Connect App works well for this. There should be a service with two characteristics, one that can write, write with notify and a second that can notify.
